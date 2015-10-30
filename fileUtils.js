@@ -2,7 +2,7 @@ var fs = require("fs");
 var mkdirp = require("mkdirp")
 var argv = require('yargs').argv
 var rootPath =   argv.s;    //'/Users/agupt13/Didi_Camera_San_Fransisco';
-var defaultNewPath = argv.t;   //'/Users/agupt13/Pictures_new/';
+var defaultNewPath = argv.t;    //'/Users/agupt13/Pictures_new/';
 
 module.exports = {
  organizeDir : function (path){
